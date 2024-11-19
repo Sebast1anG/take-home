@@ -31,3 +31,9 @@
 
 You may leave a message explaining your coding choices, but it's not necessary.
 Testing framework isn't installed, so instead just explain whether you think it's a good or bad idea to write tests for this feature or how to approach it.
+
+
+## Opinion about testing
+I think it's a good idea to write tests for this feature. 
+Firstable to check is local storage in zustand working fine and
+user interactions about deleting and prepare some test to restoring cards.

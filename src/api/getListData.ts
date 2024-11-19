@@ -8,8 +8,12 @@ export type ListItem = {
   isVisible: boolean;
 };
 
-export type DeletedListItem = Omit<ListItem, "description">;
-
+export type DeletedListItem = {
+  id: number;
+  title: string;
+  description: string;
+  isVisible: boolean;
+};
 export const useGetListData = () => {
   const query = useQuery({
     queryKey: ["list"],
